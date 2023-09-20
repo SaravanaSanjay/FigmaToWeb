@@ -1,0 +1,107 @@
+@media screen and (max-width:768px)
+{
+    .centi{
+        flex-direction: column;
+    }
+    .card-text{
+        width: 100%;
+        
+    }
+    .cards{
+        margin-bottom: 10px;
+    }
+    .listitems{
+        text-align: left;
+        margin-left: -40px;
+        margin-right: -20px
+    }
+    .subcent4{
+        font-size:larger;
+        margin-bottom: -5px;
+        line-height: 5em;
+    }
+    .footertxt{
+        flex-direction: column;
+    }
+    .subtxt{
+        margin-left: 185px;
+    }
+    .subtxt1{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 425px)
+{
+    .subcent1 {
+        margin-top: 140px;
+    }
+    .subtxt{
+        text-align: center;
+        margin-left: 35px;
+    }
+    .subcent{
+        margin-bottom: 2%;
+
+    }
+    .subtxt1{
+        margin-bottom: 20px;
+    }
+    .card-body{
+        margin-bottom:20px ;
+    }
+    .subcent4{
+        font-size:inherit;
+        line-height:inherit;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+.subcent{
+    font-size: large;
+}
+}
+
+@media screen and (max-width: 320px)
+{
+    .col{
+        flex-direction: column;
+    }
+    .col1{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    
+    .subcent1{
+        margin-top: 75px;
+    }
+    .nav2txt3{
+        font-size:30px;
+    }
+    .nav2txt1{
+        font-size: 4.2rem;
+    }
+    .btn-danger{
+        margin-left:5px ;
+        margin-bottom: 10px;
+    }
+    .subcent{
+        margin-bottom: 50px;
+    }
+    .cards{
+        margin-bottom: 20px;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        display: inline;
+    }
+    .subcent4{
+        font-size:x-small;
+        margin-top:-80px;
+    
+    }
+
+}

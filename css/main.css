@@ -10,7 +10,6 @@
     letter-spacing: 0em;
     text-align: left;
     color: black;
-    padding: 10px;
     text-decoration:none;
 }
 
@@ -57,20 +56,12 @@ text-align: left;
 color: #808080;
 }
 .sec2txt{
-    height: 224px;
 font-size: 18px;
 color:#18191F;
 font-family: Inter;
 }
-.sublay{
-margin-left: 60px;
-text-align: center;
-}
+
 .subtxt{
-    width: 259px;
-height: 30px;
-top: 1222px;
-left: 423px;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 700;
@@ -96,8 +87,6 @@ text-align: center;
 color: #000000;
 }
 .subcent{
-    width: 650px;
-height: 120px;
 font-family: Poppins;
 font-size: 50px;
 font-weight: 600;
@@ -108,31 +97,33 @@ color: #000000;
 margin-top: 60px;
 }
 .subcent1{
-    margin-top:40px; font-family: Poppins; font-size: 25px; font-weight: 400; line-height: 25px; letter-spacing: 0em; text-align: center;color: #000000;
+    font-family: Poppins; 
+    font-size: 25px; 
+    font-weight: 400; 
+    line-height: 25px; 
+    letter-spacing: 0em; 
+    text-align: center;
+    color: #000000;
 }
 .subcent2{
-    margin-top: 40px;
     font-family: Poppins;
 font-size: 25px;
 font-weight: 400;
 line-height: 25px;
 letter-spacing: 0em;
 color:#000000;
-margin-right: 20px;
 }
 .discontainer{
+    border-radius: 20px;
     width: 87px;
-height: 24px;
-border-radius: 8px;
-background-color: #FFE87A;
-margin-top: 45px;
-margin-left: 20px;
-text-align: center;
+    height: 24px;
+    margin-top: 8px;
 }
 .discount{
     font-family: Poppins;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 500;
+    margin-top: -5px;
     letter-spacing: 0em;   
 }
 .subcent3:hover{
@@ -158,11 +149,8 @@ color: #000000;
     left: 400px;
     background-color: #B00000;
     border-color: #B00000;
-    margin-right: 1.5em;
-    margin-top: 2.25em;
     width: 93px !important;
-  height: 50px !important;
-  margin-left:2.25em;
+    height: 50px !important;
 }
 .basichover{
     margin-left:250px;
@@ -220,7 +208,7 @@ line-height: 64px;
 letter-spacing: 0em;
 text-align: left;
 color: #18191F;
-
+margin-top: 55px;
 }
 .sec2txt2{
 font-family: Inter;
@@ -229,7 +217,7 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
 text-align: left;
-
+width: 80%;
 }
 .sec3txt3{
     font-family: Inter;
@@ -258,17 +246,12 @@ text-align: left;
 color: #969BAB;
 }
 .subcent4{
-
-top: 4040px;
-left: 208px;
 font-family: Poppins;
 font-size: 64px;
 font-weight: 600;
-line-height: 88px;
-letter-spacing: 0em;
 text-align: center;
+margin-top: 40px;
 color:#2E2E2E;
-margin-bottom: 10px;
 }
 .card-footer{
     background-color:white;
@@ -303,10 +286,14 @@ background-color:white;
     width:16px;height:14px;
 }
 .col2{
-    Width:120px;Height:120px;margin-left: 50px;
+    Width:120px;Height:120px;
 }
 .whitelogo{
     margin-left:20px;width: 120.95933532714844px;height: 80px;
+}
+.frame{
+    width: 1272px; 
+    height: 392px;
 }
 .footertxt{
 font-family: Inter;
@@ -321,11 +308,83 @@ text-decoration:none;
 .card{
     border: white;
 }
-.box1 {
-    width: 300px;
-    float: right !important;
-    border-radius: 8px !important;
-    gap: 32px !important;
-    box-shadow: 0px 10px 20px 0px #29292A12;
-    align-content: end;
+@media screen and (max-width:1024px){
+    .nav-res{
+        margin-left: -20px; 
+        margin-right: 20px;
+    }
 }
+@media screen and (max-width:768px)
+{
+    .subcent4{
+        margin-top: 0px;
+        font-size: 36px;
+    }
+    .bg-warining{
+        width:70px;
+    }
+    .card-text{
+        width: 100%;
+        
+    }
+    .cards{
+        margin-bottom: 10px;
+    }
+    .listitems{
+        text-align: left;
+        margin-left: -40px;
+        margin-right: -20px
+    }
+    .subtxt1{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 426px)
+{
+    .subcent{
+        margin-bottom: 2%;
+
+    }
+    .subtxt1{
+        margin-bottom: 20px;
+    }
+    .card-body{
+        margin-bottom:20px ;
+    }
+    .subcent4{
+        margin-top: 0px;
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+}
+
+@media screen and (max-width: 320px) 
+{
+    .nav2txt1{
+        font-size: 4rem;
+    }
+    .nav2txt3{
+        font-size:38px;
+    }
+    .btn-danger{
+        margin-left:5px ;
+        margin-bottom: 10px;
+    }
+    .cards{
+        margin-bottom: 20px;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        display: inline;
+    }
+
+}
+
+
