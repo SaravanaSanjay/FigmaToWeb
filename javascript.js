@@ -4,16 +4,21 @@ function toggle(){
   var popup = document.getElementById('popup');
   popup.classList.toggle('active');
 }
-
-const changeText = document.querySelector("#change-text");
-
-  changeText.addEventListener("click", function() {
-    changeText.textContent = "Helloooooooooooooooo Raviii BrooooooooooooOoOOooooOooooOOooOoooOooOooooOOoOoOOoooooooo";
-  });
-  
-    function areyouwilling(){
-      alert("Thanks for Creating Account !");
+var textElement = document.getElementById("toggleText");
+    var originalText = textElement.textContent;
+    var isToggled = false;
+    function toggleText() {
+        if (isToggled) {
+            textElement.textContent = originalText;
+        } else {
+            textElement.textContent = "Genuine Cloud Web Facilitating the facilitating bundles we offer are all sent in a split second on our SSD fueled cloud. We don't utilize committed servers that work on single bits of equipment. Our whole foundation is worked to be solid, secure, and adaptable.";
+        }
+        isToggled = !isToggled;
     }
-    function choosetheplan() {
+    textElement.addEventListener("click", toggleText);
+function areyouwilling(){
+  alert("Thanks for Creating Account !");
+}
+function choosetheplan() {
   alert("Here the best plan!");
-    }
+}
